@@ -7,7 +7,7 @@ RUN apt-get update \
  && mkdir config
 
 ARG BRANCH=test
-ARG VERSION=v1.0.0.3747-master
+ARG VERSION=v1.0.0.3747-maste
 
 COPY ./startup.sh .
 COPY ./server-settings.ini ./config/
