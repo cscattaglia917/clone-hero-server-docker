@@ -6,7 +6,7 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/* \
  && mkdir config
 
-ARG BRANCH
+ARG BRANCH=test
 ARG VERSION=v1.0.0.4080-final
 
 COPY ./startup.sh .
